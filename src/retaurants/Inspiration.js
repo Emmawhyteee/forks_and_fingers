@@ -1,6 +1,7 @@
 const Inspiration = ({ check, calfunc }) => {
     calfunc(20)
   return (
+    
     <div className="card">
       <div className="card-header">Inspirational Quotes...</div>
       <div className="card-body">
@@ -12,7 +13,8 @@ const Inspiration = ({ check, calfunc }) => {
           })}
               </ul>
               
-      <button onClick={()=>{alert(calfunc(8))}}>Click Me</button>
+        <button button onClick={() => { alert(calfunc(8)) }}>Click Me
+        </button>
 
       </div>
       </div>

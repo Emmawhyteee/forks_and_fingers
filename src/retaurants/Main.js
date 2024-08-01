@@ -15,7 +15,7 @@ const Main = () => {
       });
   };
 
-  //call the function nside use effect
+  //call the function inside use effect
   useEffect(function () {
     fetchFoodCategories();
   }, []);
